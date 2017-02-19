@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Coolors Exported Palette - coolors.co/ed1c24-fdfffc-235789-f1d302-020100 */
+/* HSL */
+/* RGB */
+body {
+  background-color: #008c8c;
+  background-image: url(../images/background-food-pattern.png);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #5E5D5C; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: 'Roboto', sans-serif; }
+
+.contenedor {
+  max-width: 960px;
+  margin: auto; }
+
+.receta {
+  max-width: 662px;
+  margin: 50px auto;
+  background: white;
+  overflow: hidden;
+  -ms-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px; }
+  .receta h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px 40px; }
+  .receta .plato {
+    width: 100%; }
+  .receta .megusta {
+    position: relative;
+    top: -30px;
+    left: 550px;
+    text-align: center;
+    -ms-box-shadow: 2px 2px 10px #f1d302;
+    -webkit-box-shadow: 2px 2px 10px #f1d302;
+    -moz-box-shadow: 2px 2px 10px #f1d302;
+    -o-box-shadow: 2px 2px 10px #f1d302;
+    box-shadow: 2px 2px 10px #f1d302; }
+    .receta .megusta.circular {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-color: #f1d302;
+      -ms-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    .receta .megusta i {
+      line-height: 50px;
+      font-size: 30px;
+      color: white; }
+  .receta ul {
+    padding: 0 40px; }
+  .receta ul li {
+    display: inline-block;
+    padding: 5px 2px; }
+    .receta ul li i.fa-star {
+      font-size: 20px;
+      color: #f1d302; }
+  .receta p {
+    margin: 20px 0;
+    padding: 0 40px; }
+  .receta a.cocinar_action {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 195px;
+    margin: 40px auto;
+    padding: 20px 0;
+    color: white;
+    background-color: #ff5b7e;
+    text-align: center;
+    -ms-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -ms-box-shadow: 2px 2px 10px #ff5b7e;
+    -webkit-box-shadow: 2px 2px 10px #ff5b7e;
+    -moz-box-shadow: 2px 2px 10px #ff5b7e;
+    -o-box-shadow: 2px 2px 10px #ff5b7e;
+    box-shadow: 2px 2px 10px #ff5b7e;
+    transition: 0.9s; }
+    .receta a.cocinar_action:hover {
+      transform: scale(1.2); }
+
+/*# sourceMappingURL=style.css.map */
